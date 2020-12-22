@@ -1,0 +1,12 @@
+teste teste
+  692  history | tail -n1 >> rep1/file1.txt 
+  685  find rep1 -maxdepth 2 -exec cp {} rep2 \;
+  686  find rep1 -maxdepth 2 -exec cp -r {} rep2 \;
+  687  ls rep1
+  688  ls rep2
+  689  tail -n1 history >> rep1/file1.txt 
+  690  cat history> tail -n1 >> rep1/file1.txt 
+  691  history> tail -n1 >> rep1/file1.txt 
+  692  history | tail -n1 >> rep1/file1.txt 
+  693  cat rep1/file1.txt 
+  694  history | tail -n10 >> rep1/file1.txt 
